@@ -26,7 +26,7 @@ public class Player {
         winDeck.addCard(card);
     }
 
-    public Card drawCard(Deck baseDeck) { return baseDeck.removeTopCard();
+    public Card drawCard(Deck baseDeck) { return baseDeck.removeFirstCard();
     }
 
     public boolean outOfCards(Deck baseDeck) {
